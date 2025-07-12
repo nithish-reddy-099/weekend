@@ -1,0 +1,570 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.backimage {
+  position: relative;
+  width: 100%;
+}
+
+.backimage img {
+  width: 100%;
+  display: block;
+}
+header{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.nav-left {
+  display: flex;
+  gap: 20px;
+}
+
+.home {
+  cursor: pointer;
+}
+
+.nav-right {
+  font-weight: bold;
+  font-size: 20px;
+
+}
+.title{
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+.home{
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: 300;
+
+
+}
+.home .home3{
+    padding: 10px 20px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    transform: translateY(-25%);
+}
+.imagetext {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  
+  color: white;
+  text-align: center;
+  z-index: 1;
+  justify-content: start;
+  text-align: start;
+  
+
+  
+}
+.imagetexttitle{
+    font-size: 60px;
+    width: 60%;
+    font-weight: 700;
+
+}
+.imagetext2{
+    font-size: 30px;
+    padding-top: 30px;
+    width: 60%;
+
+}
+main{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(226, 213, 213);
+    width: 100%;
+
+    
+}
+.imagecontainer{
+    transform: translateX(-10%);
+    
+
+}
+
+.titlebar
+{
+    font-size: 40px;
+    
+
+
+}
+.sidetext{
+     transform: translateX(-20%);
+     text-align: start;
+}
+.description{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 30px;
+   
+}
+.getintouch {
+    display: inline-block; 
+    padding: 10px;
+    background-color: lightblue;
+    text-align:start;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 200;
+}
+.cards{
+   
+    text-align: center;
+    background-color:lightblue;
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+.cardstitle{
+    font-size: 50px;
+    
+
+
+}
+.cards3{
+    display: flex;
+    gap: 50px;
+    margin: 80px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+
+
+
+}
+.des{ 
+ 
+  
+  background: rgba(0, 0, 0, 0.6); 
+  color: white;
+  padding: 10px;
+  text-align: center;
+  
+}
+.twoimages {
+    display: flex;
+    margin: 10px;
+    gap: 10%;
+    padding: 20px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 100px;
+
+    
+}
+.image1{
+    display: flex;
+    gap: 20px;
+    transform: translateX(300px);
+   
+
+
+}
+
+
+.twoimagetext{
+    width: 30%;
+    font-size: 40px;
+    transform: translateX(100px);
+    text-align: start;
+    font-style: italic;
+    
+}
+.img2{
+    transform: translateY(130px);
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 100px;
+    background-color: black;
+    color: whitesmoke;
+    gap: 30%;
+
+
+}
+.client{
+    font-size: 60px;
+    font-style: italic;
+    text-align: top;
+
+}
+.clientdes{
+    width: 90%;
+    font-size: 20px;
+    padding: 20px;
+}
+.author{
+    padding: 10px;
+    text-align: start;
+    align-items: start;
+}
+footer{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    background-color: rgb(226, 213, 213);
+}
+.lastimage img{
+    width: 800px;
+    height: 600px;
+    border-radius: 40px 0 0 40px;
+}
+
+.reach
+{
+    font-size: 50px;
+    transform: translatex(100px);
+
+    
+}
+.qu{
+    padding-top: 60px;
+    padding-left: 50px;
+    font-size: 40px;
+     font-weight: 700;
+}
+.mail{
+    font-size: 20px;
+     padding-top: 60px;
+    padding-left: 50px;
+     font-weight: 700;
+}
+.phone{
+     font-size: 20px;
+     padding-top: 60px;
+    padding-left: 50px;
+     font-weight: 700;
+}
+.page{
+     font-size: 20px;
+     padding-top: 60px;
+    padding-left: 50px;
+    font-weight: 700;
+}
+.connect{
+     font-size: 20px;
+     padding-top: 60px;
+    padding-left: 50px;
+    font-weight: 700;
+}
+@media screen and (max-width: 767px) {
+  header {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .nav-left {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-right {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .home {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+  .home .home3 {
+    padding: 8px 12px;
+    transform: none;
+  }
+
+  .imagetext {
+    top: 30%;
+    left: 5%;
+  }
+
+  .imagetexttitle {
+    font-size: 30px;
+    width: 90%;
+  }
+
+  .imagetext2 {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  main {
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .imagecontainer {
+    transform: none;
+  }
+
+  .sidetext {
+    transform: none;
+    text-align: center;
+  }
+
+  .titlebar {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .getintouch {
+    font-size: 16px;
+  }
+
+  .cards3 {
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+  }
+
+  .cardstitle {
+    font-size: 30px;
+  }
+
+  .twoimages {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .image1,
+  .img2 {
+    transform: none;
+    justify-content: center;
+  }
+
+  .twoimagetext {
+    width: 90%;
+    font-size: 24px;
+    transform: none;
+    text-align: center;
+  }
+
+  .clients {
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .client {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .clientdes {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .author {
+    text-align: center;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .lastimage img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .reach,
+  .qu,
+  .mail,
+  .phone,
+  .page,
+  .connect {
+    font-size: 20px;
+    padding: 10px 0;
+    transform: none;
+    text-align: center;
+  }
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+}
+@media screen and (min-width: 1024px) {
+  header {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+
+  .title {
+    font-size: 60px;
+    margin-left: 100px;
+  }
+
+  .home {
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+
+  .imagetext {
+    top: 40%;
+    left: 10%;
+  }
+
+  .imagetexttitle {
+    font-size: 60px;
+    width: 60%;
+  }
+
+  .imagetext2 {
+    font-size: 30px;
+    width: 60%;
+  }
+
+  main {
+    flex-direction: row;
+    padding: 40px;
+  }
+
+  .imagecontainer {
+    transform: translateX(-10%);
+  }
+
+  .sidetext {
+    transform: translateX(-20%);
+    text-align: left;
+  }
+
+  .titlebar {
+    font-size: 40px;
+  }
+
+  .cards3 {
+    flex-direction: row;
+    gap: 50px;
+    margin: 80px;
+  }
+
+  .cardstitle {
+    font-size: 50px;
+  }
+
+  .twoimages {
+    flex-direction: row;
+    gap: 10%;
+    padding: 100px;
+  }
+
+  .twoimagetext {
+    font-size: 40px;
+    width: 30%;
+    text-align: left;
+    transform: translateX(100px);
+  }
+
+  .clients {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 30%;
+  }
+
+  .client {
+    font-size: 60px;
+    text-align: left;
+  }
+
+  .clientdes {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 60px;
+  }
+
+  .lastimage img {
+    width: 800px;
+    height: 600px;
+    border-radius: 40px 0 0 40px;
+  }
+
+  .reach,
+  .qu,
+  .mail,
+  .phone,
+  .page,
+  .connect {
+    font-size: 24px;
+    text-align: left;
+    padding: 20px;
+  }
+}
+
+
